@@ -5,7 +5,7 @@ Two Verilog modules, which can use the UART port from the Basys 3 board to trans
 
 ### Transmitter module
 
-![transmitter schematic](./image/transmitter_schematic.png)
+![transmitter schematic](./images/transmitter_schematic.png)
 
 ### Reciver module
 
