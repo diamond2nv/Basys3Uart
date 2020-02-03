@@ -29,7 +29,7 @@ module top(input clk, output RsTx, input btnC);
         else
             bit_counter <= bit_counter + 1;
 
-        trigger <= (char_counter != 0 & frame_clk == 1'b1) ? 1 : 0;
+        trigger <= (char_counter != 0) & (frame_clk == 1'b1);
     end
 
     always @(posedge frame_clk)
